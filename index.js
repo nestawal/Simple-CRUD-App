@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 const Database = require('./database');//how to import
-const Product = require("C:\Users\USER\Desktop\Simple-Crud app\models\productModel.js");
+const Product = require("C:\Users\USER\Desktop\Simple-Crud app\models\product.model.js");
 const productRoute = require("./routes/product.route.js");
 
 //middleware
